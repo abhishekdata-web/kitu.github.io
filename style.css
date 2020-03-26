@@ -1,0 +1,35 @@
+/* universal */
+.img-show{
+    height: 150px;
+    object-fit: cover;
+}
+/* universal */
+
+body{
+    background: rgb(247, 227, 231);
+    color: #000;
+}
+
+.header-logo{
+    text-align: center;
+    color: rgb(245, 98, 122);
+}
+
+.header-link a{
+    font-size: 14px;
+    color: #000;
+}
+
+.index-banner img{
+    width: 100%;
+}
+
+
+
+
+/* media queries ===================================================== */
+@media only screen and (min-width: 700px) {
+    body{
+        display: none;
+    }
+  }
